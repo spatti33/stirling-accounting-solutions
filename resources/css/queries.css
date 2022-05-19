@@ -1,0 +1,709 @@
+@font-face {
+    font-family: "Tech Font";
+    src: url(../../vendors/fonts/foreign-alien-font/ForeignAlienTitle-MVZAr.otf);
+}
+
+:root {
+    --primary-color: #ff8300 !important;
+}
+
+/*----- BIG TABLETS IN LANDSCAPE 1024 - 1200px -----*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    #remote {
+        padding-left: 30%;
+    }
+    
+    #services-boundless {
+        padding-left: 60%;
+    }
+
+    #accounting {
+        padding-left: 25%;
+    }
+    
+    #platforms {
+        padding-left: 55%;
+    }
+
+    .social-links {
+        list-style: none;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 1105px) {
+    .header-para {
+        font-size: 100%;
+        width: 65%;
+    }
+
+    .hero-text-box h1 {
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section-testimonials {
+        background-attachment: scroll;
+    }
+
+    .section-form {
+        background-attachment: scroll;
+    }
+
+    #book-header {
+        background-attachment: scroll;
+    }
+
+    #bookkeeping-header {
+        background-attachment: scroll;
+    }
+
+    #financial-header {
+        background-attachment: scroll;
+    }
+
+    #advisory-header {
+        background-attachment: scroll;
+    }
+
+    #tax-header {
+        background-attachment: scroll;
+    }
+
+    #about-header {
+        background-attachment: scroll;
+    }
+
+    #article-header {
+        background-attachment: scroll;
+    }
+
+    #book-now-h1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #accounting {
+        padding-left: 20%;
+    }
+    
+    #platforms {
+        padding-left: 50%;
+    }
+}
+
+/*----- BIG TABLETS IN PORTRAIT 768 - 1023px -----*/
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        line-height: 145%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box {
+        margin-top: 10px;
+    }
+
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+
+    .works-step {
+        margin-bottom: 40px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .app-screen {
+        width: 100%;
+    }
+
+    .map-screen {
+        width: 100%;
+    }
+
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+
+    .city-feature {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .main-nav {
+        float: right;
+        list-style: none;
+        margin-top: 55px;
+    }
+
+    .img-description {
+        top: 20%;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 955px) {
+    .section-bookkeeping-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 5%;
+        margin-right: 3%;
+    }
+
+    .section-financial-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 5%;
+        margin-right: 3%;
+    }
+
+    .section-tax-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2.5%;
+        margin-right: 3%;
+    }
+
+    .section-advisory-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2.5%;
+        margin-right: 3%;
+    }
+
+    #contact {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #remote {
+        padding-left: 30%;
+    }
+    
+    #services-boundless {
+        padding-left: 50%;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    #accounting {
+        padding-left: 14%;
+    }
+    
+    #platforms {
+        padding-left: 44%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    #book-header {
+        height: 700px;
+    }
+}
+
+/*----- PHONES TO SMALL TABLETS 481 - 767px -----*/
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    #pic-holder {
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row, .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav { display: none; }
+
+    .main-nav {
+        float: none;
+        position: absolute;
+        z-index: 8888;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        margin-left: -2%;
+        background-color: var(--primary-color);
+        text-align: center;
+        padding-top: 20vh;
+    }
+
+    .main-nav li {
+        display: block;
+        margin-left: 0;
+        font-size: 110%;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    #current {
+        color: #fff;
+    }
+
+    #current {
+        font-weight: bold;
+    }
+
+    #mobile-menu-item {
+        border: 0;
+    }
+
+    .overlay {
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        background-color: #ff8400e9;
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      
+      .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+      }
+      
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #fff;
+        display: block;
+      }
+      
+      .overlay a:hover,
+      .overlay a:active {
+          font-weight: bold;
+      }
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: 12px;
+        right: 29px;
+        font-size: 60px;
+      }
+
+      .overlay .logobtn {
+        font-family: "Tech Font";
+        position: absolute;
+        top: 12px;
+        left: 29px;
+      }
+
+      #mobile-logo:hover,
+      #mobile-logo:active {
+          color: transparent;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .overlay a {font-size: 20px}
+        .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+        }
+      }
+
+    #mobile-nav {
+        display: flex;
+        float: right;
+        margin-top: 39px;
+        margin-right: 20px;
+        z-index: 999;
+        color: #fff;
+    }
+
+    .sticky #mobile-nav {
+        margin-top: 12px;
+        color: #555;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    
+    .sticky .main-nav { margin-top: 0; }
+    
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .works-step {
+        margin-bottom: 20px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .steps-box a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .app-screen {
+        width: 40%;
+    }
+
+    .map-screen {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #info {
+        text-align: center;
+        padding: 0;
+    }
+
+    footer .col {
+        width: 49.2%;
+    }
+
+    .img-description {
+        top: 10%;
+        font-size: 80%;
+    }
+
+    #back {
+        position: relative;
+        width: 60%;
+        left: 20%;
+        padding: 10px 0;
+        background-color: rgba(255, 255, 255, 0.829);
+    }
+
+    #book-header {
+        height: 200%;
+    }
+
+    #book-back {
+        position: relative;
+        width: 60%;
+        left: 20%;
+        padding: 10px 0;
+        background-color: rgba(255, 255, 255, 0.829);
+    }
+    
+    #book-now-form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section-bookkeeping-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2%;
+        margin-right: 3%;
+    }
+
+    .section-bookkeeping-info .first-list,
+    .section-financial-info .first-list,
+    .section-advisory-info .first-list,
+    .section-tax-info .first-list {
+        margin-top: 7%;
+    }
+
+    .section-financial-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2%;
+        margin-right: 3%;
+    }
+
+    .section-tax-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2.5%;
+        margin-right: 3%;
+    }
+
+    .section-advisory-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2.5%;
+        margin-right: 3%;
+    }
+
+    #accounting {
+        padding-left: 10%;
+    }
+    
+    #platforms {
+        padding-left: 40%;
+    }
+
+    #link {
+        margin-bottom: 25px;
+    }
+
+    #contact {
+        font-size: 110%;
+        height: 580px;
+    }
+
+    #hours-section,
+    #email-section,
+    #mail-section,
+    #title-drop-contact {
+    margin-bottom: 40px;
+}
+}
+
+@media only screen and (max-width: 680px) {
+    #accounting {
+        padding-left: 0%;
+    }
+    
+    #platforms {
+        padding-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    #remote {
+        padding-left: 25%;
+    }
+    
+    #services-boundless {
+        padding-left: 40%;
+    }
+
+    .header-para {
+        font-size: 100%;
+        width: 55%
+    }
+
+    .hero-text-box h1 {
+        font-size: 180%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section-bookkeeping-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2.5%;
+        margin-right: 3%;
+    }
+
+    .section-financial-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2.5%;
+        margin-right: 3%;
+    }
+
+    .section-tax-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2.5%;
+        margin-right: 3%;
+    }
+
+    .section-advisory-info ul li::before {
+        content: "";
+        float: left;
+        width: 16.5px;
+        background-color: var(--primary-color);
+        height: 2px;
+        margin-top: 2.5%;
+        margin-right: 3%;
+    }
+
+    .meals-showcase li {
+        width: 50%;
+    }
+
+    .img-description {
+        top: 30%;
+        font-size: 100%;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header-para {
+        font-size: 90%;
+        width: 55%
+    }
+
+    .hero-text-box h1 {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #remote {
+        padding-left: 0%;
+    }
+    
+    #services-boundless {
+        padding-left: 0%;
+    }
+}
+
+/*----- SMALL PHONES 0 - 480px -----*/
+@media only screen and (max-width: 480px) {
+    footer .col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-links {
+        float: none;
+    }
+
+    section {
+        padding: 25px 0;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    #boundless {
+        font-size: 325%;
+    }
+    
+    #remote {
+        font-size: 325%;
+    }
+    
+    #services-boundless {
+        font-size: 325%;
+    }
+
+    #customized {
+        font-size: 325%;
+    }
+
+    #accounting {
+        font-size: 325%;
+    }
+    
+    #platforms {
+        font-size: 325%;
+    }
+}

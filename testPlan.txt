@@ -1,0 +1,121 @@
+TEST PLAN FOR STIRLING ACCOUNTING SOLUTIONS WEBSITE
+
+//------- DESKTOP -------//
+
+//--- HOME PAGE ---//
+
+*--- HERO ---*
+
+    1. Make sure all nav links, logo, and nav buttons have hover effects:
+        logo: turn orange
+        nav links: orange underline
+        primary cta: invert colors
+        buttons: invert colors and turn darker
+    
+    2. Make sure video is playing smoothly
+
+    3. Test all links and buttons:
+        logo: nothing
+        services: Go to separate services page 
+        about: scroll to about section on home page
+        contact: scroll to contact section on home page
+        book now primary: scroll to book now section on home page
+        book now button: scroll to book now section on home page
+        show me more button: scroll to services section on home page
+
+    4. Make sure the video is fixed and creates the overlapping scroll effect
+
+*--- FEATURES ---*
+
+    1. Make sure all four features are animated with fade in
+
+    2. Make sure sticky nav appears and all the links function:
+        logo: back to top
+        services: Go to separate services page 
+        about: scroll to about section on home page
+        contact: scroll to contact section on home page
+        book now primary: scroll to book now section on home page
+
+    2. Make sure all orange titles and icons are clickable:
+        bookkeeping icon/title: go to bookkeeping page
+        financial reporting icon/title: go to financial reporting page
+        advisory services icon/title: go to advisory services page
+        tax prep icon/title: go to tax prep page
+
+*--- PICTURES ---*
+
+    1. Make sure they are all taking up their entire containers
+
+    2. Make sure the hover effects all work and the learn more is clickable 
+
+    3. Make sure the links go to the correct place:
+        1. Book Now Page
+        2. financial reporting Page
+        3. services Page
+        4. tax prep Page
+        5. bookkeeping Page
+        6. services Page
+        7. advisory services Page
+        8. services Page
+
+*--- CITIES ---*
+
+    1. Make sure the two correct pictures are showing:
+        1. Manchester
+        2. Bedford
+
+    2. Make sure the labels and icons are showing:
+        Name of city
+        Name of company with a person icon
+        Years worked with calendar icon
+        website link with link icon
+
+    3. Make sure the links go to their websites in a different tab
+
+*--- TESTIMONIALS ---* 
+
+    1. Make sure the picture is fixed for scroll effect
+
+    2. Make sure the user images are showing up clearly and on the bottom left side of the text
+
+    3. Make sure the big quote is showing up on the top left of the text
+
+*--- WHO WE ARE ---* 
+
+    1. Make sure animation works for image 
+
+    2. Make sure button has hover affects
+
+    3. Make sure the button takes you to the about page
+
+*--- BOOK NOW FORM ---*
+
+    1. Make sure the animation works
+
+    2. Make sure the background image is fixed
+
+    3. Make sure the button has a hover affects
+
+    4. Try to submit the form without fields and make sure you are promted to fill them out
+
+    5. Submit the form with all required information and make sure an email is sent to leslesypattisolutions@gmail.com and to the email that was entered in the form
+
+*--- CONTACT US ---* 
+
+    1. Make sure map is in place
+
+    2. Make sure the email and phone links have hover affects
+
+*--- FOOTER ---*
+
+    1. Make sure all links and social icons have hover affects
+
+    2. Make sure all the links take you to the pages:
+        services: services page
+        about: about page
+        contact: book-now page
+        book now: book-now page
+
+//--- SERVICES PAGE ---//
+
+
